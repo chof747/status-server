@@ -1,0 +1,45 @@
+[
+    {
+        "id" : "inet-router-interrupt",
+        "time" : "2021-05-17T20:12:56.124+0200",
+        "level" : 2,
+        "title" : "Internet outage",
+        "message" : "Intermediate internet Outage",
+        "actions" : [
+            {
+                "id" : "restart",
+                "label" : "Restart router"
+            }
+        ]
+    },
+    {
+        "id" : "inet-router-outage",
+        "time" : "2021-05-17T20:17:12.034+0200",
+        "level" : 1,
+        "title" : "Internet outage",
+        "message" : "Lasting internet Outage",
+        "actions" : [
+            {
+                "id" : "restart",
+                "label" : "Restart router"
+            }
+        ]
+    },
+    {
+        "id" : "high-humidity",
+        "time" : "2021-05-16T20:17:12.034+0200",
+        "level" : 2,
+        "title" : "Humidity alert",
+        "message" : "Bathroom Humidity high",
+        "actions" : [
+            {
+                "id" : "vent",
+                "label" : "Turn on Vent"
+            },
+            {
+                "id" : "heat",
+                "label" : "Turn on IR heating"
+            }
+        ]
+    }
+]
