@@ -1,14 +1,12 @@
 var express = require('express');
 var router = express.Router();
-const fs = require('fs');
 const Messages = require('../../models/messages');
+
+const datadir = process.env.DATADIR;
 
 router.use(function(req, res, next) {
 
-  let rawdata = fs.readFileSync('/data/messages.json');
-  let jsondata = JSON.parse(rawdata);
-  let messages = new Messages(jsondata);
-  req.messages = messages;
+  req.messages = Messages.read();
   next();
 });
 
