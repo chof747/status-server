@@ -1,1 +1,9 @@
-GET http://localhost:3000/api/status/inet-router-interrupt
+GET http://localhost:3000/api/status/
+
+###
+
+POST http://localhost:3000/api/status/accept/inet-router-interrupt
+
+
+###
+POST http://localhost:3000/api/status/accept/inet-router-interrupt/restart
