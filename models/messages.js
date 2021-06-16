@@ -17,10 +17,15 @@ class Messages {
             let rawdata = fs.readFileSync(MESSAGE_FILE);
             let jsondata = JSON.parse(rawdata);
             this.instance = new Messages(jsondata);
+            this.instance.identifyAlertLevel();
             console.log("reading"); 
         }
 
         return this.instance;
+    }
+
+    static isExpired(/* Object */ message) {
+        return false;
     }
 
     //------------------------------------------------------------------------------------
@@ -54,6 +59,22 @@ class Messages {
         this.#data.forEach((m, ix) => {
             this.#index[m.id] = ix;
         });
+    }
+
+    //------------------------------------------------------------------------------------
+    identifyAlertLevel() {
+        this.alertLevelChange = false;
+        var maxLevel = 999;
+        this.#data.forEach(m => {
+            if ((maxLevel > m.level) && (!Messages.isExpired(m))) {
+                maxLevel = m.level
+            } 
+        });
+
+        if ((maxLevel != this.alertLevel) && (999 != maxLevel)) {
+            this.alertLevel = maxLevel;
+            this.alertLevelChange = true;
+        }
     }
 
     //------------------------------------------------------------------------------------
@@ -108,6 +129,7 @@ class Messages {
             delete this.#index[id];
 
             this.sortAndRebuildIndex();
+            this.identifyAlertLevel();
             return true;
         } else {
             return false;

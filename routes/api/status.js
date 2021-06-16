@@ -13,6 +13,7 @@ router.use(function (req, res, next) {
 
   req.messages = Messages.read();
   req.mqtt = req.app.get('mqttClient');
+  alertlevelchange(req.mqtt, req.messages.getNewAlertLevel(), undefined);
   next();
 });
 
@@ -92,6 +93,7 @@ router.post('/accept/:id/:response?', function(req, res, next) {
 
     if (req.messages.delete(id)) {
       req.messages.write();
+      alertlevelchange(req.mqtt, req.messages.getNewAlertLevel(),undefined);
       res.status(200);
     } else {
       res.status(404);
