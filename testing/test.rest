@@ -2,6 +2,29 @@ GET http://localhost:3000/api/status/
 
 ###
 
+POST http://localhost:3000/api/status/high-humidity
+content-type: application/json
+
+{
+        "time": "2021-05-16T20:17:12.034+0200",
+        "level": 2,
+        "title": "Humidity alert",
+        "message": "Bathroom Humidity high",
+        "actions": [
+            {
+                "id": "vent",
+                "label": "Turn on Vent"
+            },
+            {
+                "id": "heat",
+                "label": "Turn on IR heating"
+            }
+        ]
+}
+
+
+###
+
 POST http://localhost:3000/api/status/accept/inet-router-interrupt
 
 
