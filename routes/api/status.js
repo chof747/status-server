@@ -106,4 +106,19 @@ router.post('/accept/:id/:response?', function(req, res, next) {
 
 });
 
+/* DELETE */
+//------------------------------------------------------------------------------------
+router.delete('/:id', function(req, res, next) {
+  const id = req.params.id;
+  if (req.messages.delete(id)) {
+    req.messages.write();
+    alertlevelchange(req.mqtt, req.messages.getNewAlertLevel(),undefined);
+    res.status(200);
+  } else {
+    res.status(404);
+  }
+  res.send();
+
+});
+
 module.exports = router;
