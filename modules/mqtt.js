@@ -12,10 +12,13 @@ mqttClient = function() {
         password : process.env.MQTT_PASSWORD
     });
     MqttSubscriber.client = client;
-
+    
     client.on('error', function(err) {
-        console.error(err);
         console.error("Cannot Connect to MQTT Server");
+        console.error(err);
+        console.error(process.env.MQTT_USER);
+        //console.error(process.env.MQTT_PASSWORD);
+
     });
 
     client.subscribe(MqttSubscriber.getSubscriptions(), function(err, granted) {
