@@ -6,4 +6,4 @@ RUN npm install --silent -g nodemon
 RUN npm install --production --silent && mv node_modules ../
 COPY . .
 EXPOSE 3000
-CMD [ "npm", "run", "start.dev" ]
+CMD [ "npm", "run", $START]
