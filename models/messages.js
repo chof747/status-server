@@ -61,15 +61,21 @@ class Messages {
         });
     }
 
-    //------------------------------------------------------------------------------------
+   //------------------------------------------------------------------------------------
     identifyAlertLevel() {
         this.alertLevelChange = false;
         var maxLevel = 999;
-        this.#data.forEach(m => {
-            if ((maxLevel > m.level) && (!Messages.isExpired(m))) {
-                maxLevel = m.level
-            } 
-        });
+
+        if (this.#data.length > 0) {
+            this.#data.forEach(m => {
+                if ((maxLevel > m.level) && (!Messages.isExpired(m))) {
+                    maxLevel = m.level
+                }
+            });
+        } else 
+        {
+            maxLevel = 3;
+        }
 
         if ((maxLevel != this.alertLevel) && (999 != maxLevel)) {
             this.alertLevel = maxLevel;
