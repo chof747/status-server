@@ -5,7 +5,7 @@ module.exports = function (client, id, resolution) {
         resolution: resolution
     }
 
-    client.publish('stat/ALARM_CENTER_DEV/alarmcenter/resolutionrequest',
+    client.publish(`stat/${process.env.DEVICE_NAME}/alarmcenter/resolutionrequest`,
         JSON.stringify(request));
     
     return true;

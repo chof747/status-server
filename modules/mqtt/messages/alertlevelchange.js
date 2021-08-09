@@ -13,7 +13,7 @@ module.exports = function (client, level, expires) {
             alert.expires = expires;
         }
 
-        client.publish('cmnd/ALARM_CENTER_DEV/alarmcenter/statusindicator',
+        client.publish(`cmnd/${process.env.DEVICE_NAME}/alarmcenter/statusindicator`,
             JSON.stringify(alert), {
             retain: true
         });

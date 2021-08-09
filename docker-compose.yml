@@ -16,6 +16,7 @@ services:
       CONTAINER_PORT: ${API_SERVER_PORT}
       DATADIR: ${API_SERVER_DATADIR}
       TZ: ${API_SERVER_TZ}
+      DEVICE_NAME: ${INFOPOINT_DEVICE_NAME}
     ports:
       - 3000:${API_SERVER_PORT}
     volumes: 
