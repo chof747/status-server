@@ -1,6 +1,44 @@
 version: '3.4'
 
 services:
+  homeassistant:
+    container_name: statusserver-hass-dev
+    restart: unless-stopped
+    image: ${HASSIO}
+    volumes:
+      - ${USERDIR}/homeassistant:/config
+      - ./testing/stubs/homeassistant/configuration.yaml:/config/configuration.yaml
+      - ./testing/stubs/homeassistant/groups.yaml:/config/groups.yaml
+      - ${LOCALTIME}:/etc/localtime:ro
+    privileged: true
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    ports:
+      - 1900:8123
+    networks:
+      statusserver-dev:
+        aliases: 
+          - hass
+
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: statusserver-mqtt-dev
+    ports:
+      - 1883:1883
+      - 8883:8883
+    networks:
+      statusserver-dev:
+        aliases:
+          - mqtt
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+    volumes:
+      - ${USERDIR}/mosquitto/:/mosquitto
+      - ./testing/stubs/mosquitto:/mosquitto/config
+
   statusserver:
     image: statusserver
     build:
@@ -9,6 +47,7 @@ services:
     command: npm run start.dev
     environment:
       NODE_ENV: development
+      SERVER_NAME: ${API_SERVER_NAME}
       START: dev
       MQTT_BROKER: ${MQTT_BROKER}
       MQTT_USER: ${API_SERVER_MQTT_USER}
@@ -19,8 +58,17 @@ services:
       DEVICE_NAME: ${INFOPOINT_DEVICE_NAME}
     ports:
       - 3000:${API_SERVER_PORT}
+      - 9229:9229
     volumes: 
       - .:/usr/src/app
       - /dev/null:/usr/src/app/.env
       - /usr/src/app/node_modules
       - ./testing/data:/data
+    networks:
+      statusserver-dev: 
+        aliases: 
+          - statusserver
+
+networks:
+  statusserver-dev:
+    name: statusserver-dev

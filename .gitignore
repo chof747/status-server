@@ -2,3 +2,4 @@ package-lock.json
 node_modules
 .env
 testing/data/messages.json
+testing/docker
