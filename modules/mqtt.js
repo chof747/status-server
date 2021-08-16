@@ -20,6 +20,12 @@ mqttClient = function() {
         //console.error(process.env.MQTT_PASSWORD);
 
     });
+ 
+    console.log(`tele/${process.env.SERVER_NAME}/reconnected`);
+    
+    client.publish(`tele/${process.env.SERVER_NAME}/reconnected`, JSON.stringify({
+        servername: process.env.SERVER_NAME,
+    }));
 
     client.subscribe(MqttSubscriber.getSubscriptions(), function(err, granted) {
         if (err) {
