@@ -1,0 +1,13 @@
+get http://localhost:1900/api/states/sensor.stromversorgung_router_leistung
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlMThjMjA0MjViODc5YTU1NzZjYmY1Y2M2MCIsImlhdCI6MTYyODg4Njk0NCwiZXhwIjoxOTQ0MjQ2OTQ0fQ.YjQ46-rUiL_yMQtFCHJ070ofZC_8z491btT9uZixQ4k
+
+###
+
+get http://localhost:1900/api/services
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlMThjMjA0MjViODc5YTU1NzZjYmY1Y2M2MCIsImlhdCI6MTYyODg4Njk0NCwiZXhwIjoxOTQ0MjQ2OTQ0fQ.YjQ46-rUiL_yMQtFCHJ070ofZC_8z491btT9uZixQ4k
+
+
+###
+
+get http://localhost:1900/api/mobile_app/registrations
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlMThjMjA0MjViODc5YTU1NzZjYmY1Y2M2MCIsImlhdCI6MTYyODg4Njk0NCwiZXhwIjoxOTQ0MjQ2OTQ0fQ.YjQ46-rUiL_yMQtFCHJ070ofZC_8z491btT9uZixQ4k
