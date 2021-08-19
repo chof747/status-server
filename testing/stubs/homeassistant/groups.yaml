@@ -1,3 +1,9 @@
 living_room:
   entities:
     - sensor.temp1
+    - sensor.humd1
+
+sleeping_room:
+  entities:
+    - sensor.temp2
+    - sensor.humd2
