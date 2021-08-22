@@ -10,16 +10,19 @@
     "debug": "~2.6.9",
     "dotenv": "^10.0.0",
     "express": "~4.16.1",
+    "homeassistant-ws": "^0.2.2",
     "http-errors": "~1.6.3",
+    "md5": "^2.3.0",
     "morgan": "~1.9.1",
-    "mqtt": "^4.2.6"
+    "mqtt": "^4.2.6",
+    "ws": "^8.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
-
   "nodemonConfig": {
-    "ignore": ["testing/*"]
+    "ignore": [
+      "testing/*"
+    ]
   }
-
 }

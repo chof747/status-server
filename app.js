@@ -28,11 +28,20 @@ function prepareServer() {
   return app;
 }
 
-function startUpMqtt(app) {
 //****************************************************************************************
+function startUpMqtt(app) {
 
     const mqtt = require('./modules/mqtt');
     app.set('mqttClient', mqtt());
+}
+
+//****************************************************************************************
+function startUpWS(app) {
+  const SensorStates = require('./models/sensorstates')
+  const haws = require('./modules/ws')
+  var states = new SensorStates();
+  haws(states.update.bind(states));
+  app.set('states', states);
 }
 
 const dotenv = require('dotenv');
@@ -40,6 +49,7 @@ dotenv.config();
 
 app = prepareServer();
 startUpMqtt(app);
+startUpWS(app);
 
 const statusRouter = require('./routes/api/status.js');
 app.use('/api/status', statusRouter);

@@ -1,5 +1,9 @@
-get http://localhost:1900/api/states/sensor.stromversorgung_router_leistung
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlMThjMjA0MjViODc5YTU1NzZjYmY1Y2M2MCIsImlhdCI6MTYyODg4Njk0NCwiZXhwIjoxOTQ0MjQ2OTQ0fQ.YjQ46-rUiL_yMQtFCHJ070ofZC_8z491btT9uZixQ4k
+get http://localhost:1900/api/states/group.living_room
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0MDEzZmIwNThkODI0ZGJlYTlmYTA4MzE4ZmQxYzI4YyIsImlhdCI6MTYyOTQwMzM0NSwiZXhwIjoxOTQ0NzYzMzQ1fQ.oYzlwJX-zgr5bYI1yKapoC_tWGFZ-iZ_jZDNKcjQxVM
+
+###
+get http://localhost:1900/api/states/sensor.temp1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0MDEzZmIwNThkODI0ZGJlYTlmYTA4MzE4ZmQxYzI4YyIsImlhdCI6MTYyOTQwMzM0NSwiZXhwIjoxOTQ0NzYzMzQ1fQ.oYzlwJX-zgr5bYI1yKapoC_tWGFZ-iZ_jZDNKcjQxVM
 
 ###
 
@@ -11,3 +15,14 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlM
 
 get http://localhost:1900/api/mobile_app/registrations
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2YTQzMDRlMThjMjA0MjViODc5YTU1NzZjYmY1Y2M2MCIsImlhdCI6MTYyODg4Njk0NCwiZXhwIjoxOTQ0MjQ2OTQ0fQ.YjQ46-rUiL_yMQtFCHJ070ofZC_8z491btT9uZixQ4k
+
+
+###
+
+get http://10.0.1.39:1900/api/states/sensor.wssr_airpressure
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3MzJlNzA2YzUxM2M0MmFhODM1ZjY4OTUyYzBhNmQwYiIsImlhdCI6MTYyOTQwMzQ0NywiZXhwIjoxOTQ0NzYzNDQ3fQ.v5BvPt3ohGiz3XtH8fLGzubRiaJ5869nYkBTKzekERU
+
+###
+
+get https://4i4r2jvgq9mg14l4pcunf0gt3e353cmx.ui.nabu.casa/api/states
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3MzJlNzA2YzUxM2M0MmFhODM1ZjY4OTUyYzBhNmQwYiIsImlhdCI6MTYyOTQwMzQ0NywiZXhwIjoxOTQ0NzYzNDQ3fQ.v5BvPt3ohGiz3XtH8fLGzubRiaJ5869nYkBTKzekERU

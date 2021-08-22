@@ -1,0 +1,2084 @@
+[
+    {
+        "entity_id": "person.christian",
+        "state": "not_home",
+        "attributes": {
+            "editable": false,
+            "id": "christian",
+            "latitude": 48.1802133487137,
+            "longitude": 14.525092319289719,
+            "gps_accuracy": 65,
+            "source": "device_tracker.almighty",
+            "user_id": "f9ab695c7319462e82595d804333b16a",
+            "friendly_name": "Christian",
+            "entity_picture": "/api/image/serve/0ac9d6189c719412d8cbb789c4688d8c/512x512"
+        },
+        "last_changed": "2021-08-21T10:32:46.775865+00:00",
+        "last_updated": "2021-08-22T09:51:22.243127+00:00",
+        "context": {
+            "id": "a8960376431031d9b31d440611cd3265",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "person.barbara",
+        "state": "home",
+        "attributes": {
+            "editable": false,
+            "id": "barbara",
+            "latitude": 48.239837646484375,
+            "longitude": 16.317080845529745,
+            "gps_accuracy": 65,
+            "source": "device_tracker.barbaras_iphone",
+            "user_id": "59f5f583954240c6a83e866c89ea0555",
+            "friendly_name": "Barbara"
+        },
+        "last_changed": "2021-08-10T19:11:32.822251+00:00",
+        "last_updated": "2021-08-17T17:54:02.637543+00:00",
+        "context": {
+            "id": "c8ded2040c8a9a25c51e5fc77129222a",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sun.sun",
+        "state": "above_horizon",
+        "attributes": {
+            "next_dawn": "2021-08-23T03:26:18.063057+00:00",
+            "next_dusk": "2021-08-22T18:29:16.085995+00:00",
+            "next_midnight": "2021-08-22T22:57:20+00:00",
+            "next_noon": "2021-08-23T10:57:26+00:00",
+            "next_rising": "2021-08-23T04:00:19.333609+00:00",
+            "next_setting": "2021-08-22T17:55:17.444870+00:00",
+            "elevation": 52.44,
+            "azimuth": 196.25,
+            "rising": false,
+            "friendly_name": "Sun"
+        },
+        "last_changed": "2021-08-22T03:58:56.650501+00:00",
+        "last_updated": "2021-08-22T11:37:42.029694+00:00",
+        "context": {
+            "id": "e199bb428f4d316d04ffafe2d778be05",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.fruhstucksbeleuchtung",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "switch.lampe_fenster_strom",
+                "switch.lampe_sideboard"
+            ],
+            "id": "1610720708447",
+            "friendly_name": "Fr\u00fchst\u00fccksbeleuchtung",
+            "icon": "mdi:coffee"
+        },
+        "last_changed": "2021-08-10T19:11:39.449898+00:00",
+        "last_updated": "2021-08-10T19:11:39.449898+00:00",
+        "context": {
+            "id": "0531a1ae24c0848c26e844ab72f765e4",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.alle_lampen_aus_innen",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "light.blaue_lampe",
+                "light.ventilator_badezimmer",
+                "switch.billy_beleuchtung",
+                "light.stehlampe",
+                "light.lampe_am_sideboard",
+                "light.lampe_buro_neben_bett",
+                "switch.lampe_sideboard",
+                "switch.lampe_fenster_strom",
+                "switch.stecker_nachtkastl_strom",
+                "switch.stecker_nachtkastl_usb"
+            ],
+            "id": "1610720863333",
+            "friendly_name": "Alle Lampen aus (innen)",
+            "icon": "hass:home"
+        },
+        "last_changed": "2021-08-10T19:11:39.450429+00:00",
+        "last_updated": "2021-08-10T19:11:39.450429+00:00",
+        "context": {
+            "id": "5436a69952d0ce52f223dab8398bc46e",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.wohnzimmer_licht",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "switch.billy_beleuchtung",
+                "light.stehlampe",
+                "switch.lampe_sideboard"
+            ],
+            "id": "1622295046705",
+            "friendly_name": "Wohnzimmer Licht An",
+            "icon": "mdi:sofa"
+        },
+        "last_changed": "2021-08-10T19:11:39.450886+00:00",
+        "last_updated": "2021-08-10T19:11:39.450886+00:00",
+        "context": {
+            "id": "dd9d783d0d1a43e5e1e49669fb07793b",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.burolicht",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "light.lampe_buro_neben_bett"
+            ],
+            "id": "1622295736546",
+            "friendly_name": "B\u00fcrolicht",
+            "icon": "mdi:desk-lamp"
+        },
+        "last_changed": "2021-08-10T19:11:39.451307+00:00",
+        "last_updated": "2021-08-10T19:11:39.451307+00:00",
+        "context": {
+            "id": "b715f335f8aad829363d5836a8cb6b59",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.schlafzimmer",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "switch.stecker_nachtkastl_strom",
+                "switch.stecker_nachtkastl_usb",
+                "light.lampe_am_sideboard"
+            ],
+            "id": "1622296047427",
+            "friendly_name": "Schlafzimmer",
+            "icon": "mdi:bed"
+        },
+        "last_changed": "2021-08-10T19:11:39.451728+00:00",
+        "last_updated": "2021-08-10T19:11:39.451728+00:00",
+        "context": {
+            "id": "64d6ed6a8e0d3f9c9b0688a55c33924b",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "scene.wohnzimmer_lichter_aus",
+        "state": "scening",
+        "attributes": {
+            "entity_id": [
+                "light.stehlampe",
+                "switch.lampe_fenster_strom",
+                "switch.billy_beleuchtung",
+                "switch.lampe_sideboard"
+            ],
+            "id": "1622325391633",
+            "friendly_name": "Wohnzimmer Lichter aus",
+            "icon": "mdi:sofa-outline"
+        },
+        "last_changed": "2021-08-10T19:11:39.452242+00:00",
+        "last_updated": "2021-08-10T19:11:39.452242+00:00",
+        "context": {
+            "id": "271f506be8b593b24ddabeae8a846fc5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "zone.arbeit_christain",
+        "state": "zoning",
+        "attributes": {
+            "latitude": 48.247854448290624,
+            "longitude": 16.36868476867676,
+            "radius": 150.0,
+            "passive": false,
+            "editable": true,
+            "friendly_name": "Arbeit Christain",
+            "icon": "mdi:desk"
+        },
+        "last_changed": "2021-08-10T19:11:39.646667+00:00",
+        "last_updated": "2021-08-10T19:11:39.646667+00:00",
+        "context": {
+            "id": "cb18ea81c4a08d1fa355ae362c0dec63",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.updater",
+        "state": "on",
+        "attributes": {
+            "release_notes": "https://www.home-assistant.io/blog/2021/08/04/release-20218/",
+            "newest_version": "2021.8.8",
+            "friendly_name": "Updater"
+        },
+        "last_changed": "2021-08-10T19:11:40.319682+00:00",
+        "last_updated": "2021-08-19T19:11:40.119134+00:00",
+        "context": {
+            "id": "5c232c69fd8d1bd7db54f13550a378db",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.remote_ui",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "Remote UI",
+            "device_class": "connectivity"
+        },
+        "last_changed": "2021-08-19T05:50:04.447741+00:00",
+        "last_updated": "2021-08-19T05:50:04.447741+00:00",
+        "context": {
+            "id": "e19fbcbc7ddf3f5ce902217c496872bd",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "input_number.toleranz_bad_luftfeuchtigkeit",
+        "state": "3.0",
+        "attributes": {
+            "initial": null,
+            "editable": true,
+            "min": 0.0,
+            "max": 15.0,
+            "step": 1.0,
+            "mode": "slider",
+            "friendly_name": "Toleranz Bad Luftfeuchtigkeit",
+            "icon": "mdi:fan"
+        },
+        "last_changed": "2021-08-10T19:11:39.707506+00:00",
+        "last_updated": "2021-08-10T19:11:39.707506+00:00",
+        "context": {
+            "id": "6db79ce414f294ca49505d1862fe81d5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "input_boolean.input_button_vents_off",
+        "state": "on",
+        "attributes": {
+            "editable": true,
+            "friendly_name": "Ventilatoren Freigabe",
+            "icon": "mdi:fan"
+        },
+        "last_changed": "2021-08-21T10:25:12.244097+00:00",
+        "last_updated": "2021-08-21T10:25:12.244097+00:00",
+        "context": {
+            "id": "7c2ffedfd9ec758e88f35807889203bd",
+            "parent_id": null,
+            "user_id": "f9ab695c7319462e82595d804333b16a"
+        }
+    },
+    {
+        "entity_id": "input_boolean.urlaubsmodus",
+        "state": "off",
+        "attributes": {
+            "editable": true,
+            "friendly_name": "Urlaubsmodus",
+            "icon": "mdi:beach"
+        },
+        "last_changed": "2021-08-22T07:41:09.420597+00:00",
+        "last_updated": "2021-08-22T07:41:09.420597+00:00",
+        "context": {
+            "id": "0e4f20219bf2996e57a784cdd12e7028",
+            "parent_id": null,
+            "user_id": "f9ab695c7319462e82595d804333b16a"
+        }
+    },
+    {
+        "entity_id": "zone.home",
+        "state": "zoning",
+        "attributes": {
+            "latitude": 48.239905981710066,
+            "longitude": 16.317179859615862,
+            "radius": 100,
+            "passive": false,
+            "editable": true,
+            "friendly_name": "Wohnung",
+            "icon": "mdi:home"
+        },
+        "last_changed": "2021-08-10T19:11:40.245254+00:00",
+        "last_updated": "2021-08-10T19:11:40.245254+00:00",
+        "context": {
+            "id": "868c52e59405a410f98bb63dbd5cb8e3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.rpi_power_status",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "RPi Power status",
+            "icon": "mdi:raspberry-pi",
+            "device_class": "problem"
+        },
+        "last_changed": "2021-08-10T19:11:40.256089+00:00",
+        "last_updated": "2021-08-10T19:11:40.256089+00:00",
+        "context": {
+            "id": "a0c3408d4d39dba737471138d4e1f4ec",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.weihnachtsbaum_automatik",
+        "state": "off",
+        "attributes": {
+            "last_triggered": "2021-05-29T06:00:00.004099+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1610564079013",
+            "friendly_name": "Weihnachtsbaum Automatik An"
+        },
+        "last_changed": "2021-08-10T19:11:40.279011+00:00",
+        "last_updated": "2021-08-10T19:11:40.279011+00:00",
+        "context": {
+            "id": "824a892fd54ec1499a8567064f212d87",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.weihnachtsbaum_automatik_aus",
+        "state": "off",
+        "attributes": {
+            "last_triggered": "2021-05-28T22:00:00.002324+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1610564136562",
+            "friendly_name": "Weihnachtsbaum Automatik aus"
+        },
+        "last_changed": "2021-08-10T19:11:40.279332+00:00",
+        "last_updated": "2021-08-10T19:11:40.279332+00:00",
+        "context": {
+            "id": "1659c3e80d46ded1bda8a62b93d86e08",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.niedriger_batterystand",
+        "state": "on",
+        "attributes": {
+            "last_triggered": "2021-03-24T17:07:39.338715+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1610661225533",
+            "friendly_name": "Niedriger Batteriestand Firmenhandy"
+        },
+        "last_changed": "2021-08-10T19:11:40.279675+00:00",
+        "last_updated": "2021-08-10T19:11:40.279675+00:00",
+        "context": {
+            "id": "bbd71a1374ff86aa38866047d2202dad",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.benachrichtigung_internetausfall",
+        "state": "on",
+        "attributes": {
+            "last_triggered": "2021-08-20T15:54:13.304355+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1619108353175",
+            "friendly_name": "Benachrichtigung: Internetausfall "
+        },
+        "last_changed": "2021-08-10T19:11:40.280052+00:00",
+        "last_updated": "2021-08-20T15:54:18.331489+00:00",
+        "context": {
+            "id": "4a68cce714b9692b6f76210b536ecba1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.benachrichtigung_internet_wieder_ok",
+        "state": "on",
+        "attributes": {
+            "last_triggered": "2021-08-20T15:55:01.380265+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1619108721004",
+            "friendly_name": "Benachrichtigung: Internet wieder OK"
+        },
+        "last_changed": "2021-08-10T19:11:40.280418+00:00",
+        "last_updated": "2021-08-20T15:55:03.672019+00:00",
+        "context": {
+            "id": "34d970b5cdd40e534c8750841597d15b",
+            "parent_id": "9710a744e6c1878a27f868f13c78b197",
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.urlaubsmodus",
+        "state": "on",
+        "attributes": {
+            "last_triggered": "2021-08-21T17:32:10.523060+00:00",
+            "mode": "single",
+            "current": 0,
+            "id": "1622296915395",
+            "friendly_name": "Urlaubsmodus"
+        },
+        "last_changed": "2021-08-10T19:11:40.280777+00:00",
+        "last_updated": "2021-08-21T21:20:10.569781+00:00",
+        "context": {
+            "id": "32674b1178c1c94bd1a9c5c39f921e40",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.almighty",
+        "state": "not_home",
+        "attributes": {
+            "source_type": "gps",
+            "battery_level": 78,
+            "latitude": 48.1802133487137,
+            "longitude": 14.525092319289719,
+            "gps_accuracy": 65,
+            "altitude": 267.8342170715332,
+            "vertical_accuracy": 60,
+            "friendly_name": "Almighty"
+        },
+        "last_changed": "2021-08-22T09:51:22.242524+00:00",
+        "last_updated": "2021-08-22T09:51:22.242524+00:00",
+        "context": {
+            "id": "bfb821fe0b30a5ee0e89e2020219a32f",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.business_almighty",
+        "state": "home",
+        "attributes": {
+            "source_type": "gps",
+            "battery_level": 100,
+            "latitude": 48.23985896135136,
+            "longitude": 16.317186192080854,
+            "gps_accuracy": 65,
+            "altitude": 240.2228775024414,
+            "vertical_accuracy": 17,
+            "friendly_name": "Business Almighty"
+        },
+        "last_changed": "2021-08-10T19:11:41.524357+00:00",
+        "last_updated": "2021-08-10T19:11:41.524357+00:00",
+        "context": {
+            "id": "791f6a6541aa0ce84f5dd9a58e5654c9",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.barbaras_iphone",
+        "state": "home",
+        "attributes": {
+            "source_type": "gps",
+            "battery_level": 54,
+            "latitude": 48.239837646484375,
+            "longitude": 16.317080845529745,
+            "gps_accuracy": 65,
+            "altitude": 241.7823600769043,
+            "vertical_accuracy": 14,
+            "friendly_name": "Barbara\u2019s iPhone"
+        },
+        "last_changed": "2021-08-17T17:54:02.636992+00:00",
+        "last_updated": "2021-08-17T17:54:02.636992+00:00",
+        "context": {
+            "id": "f64e9517fe7af46cc14a913af03ef8d3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.ipad_2",
+        "state": "unknown",
+        "attributes": {
+            "source_type": "gps",
+            "friendly_name": "iPad (2)"
+        },
+        "last_changed": "2021-08-10T19:11:41.525295+00:00",
+        "last_updated": "2021-08-10T19:11:41.525295+00:00",
+        "context": {
+            "id": "0842cc791a7688ddf365792779b2c470",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_battery_level",
+        "state": "78",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "friendly_name": "Almighty Battery Level",
+            "icon": "mdi:battery-70",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-22T09:51:22.506986+00:00",
+        "last_updated": "2021-08-22T09:51:22.506986+00:00",
+        "context": {
+            "id": "7f05c4a9b0fd6ab65e27a4fcbdeb2527",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+            "Low Power Mode": false,
+            "friendly_name": "Almighty Battery State",
+            "icon": "mdi:battery-70",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-22T06:35:00.307718+00:00",
+        "last_updated": "2021-08-22T09:51:22.508030+00:00",
+        "context": {
+            "id": "d5143f5a09885ec36698b9ca779014d7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_storage",
+        "state": "7.83",
+        "attributes": {
+            "Available": "4,64 GB",
+            "Available (Important)": "6,29 GB",
+            "Available (Opportunistic)": "5,01 GB",
+            "Total": "63,94 GB",
+            "unit_of_measurement": "% available",
+            "friendly_name": "Almighty Storage",
+            "icon": "mdi:database"
+        },
+        "last_changed": "2021-08-22T09:51:22.508929+00:00",
+        "last_updated": "2021-08-22T09:51:22.508929+00:00",
+        "context": {
+            "id": "7906ae56943eeb2901d017352926e6d0",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_ssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "Almighty SSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-21T20:51:21.269227+00:00",
+        "last_updated": "2021-08-21T20:51:21.269227+00:00",
+        "context": {
+            "id": "8721db204a42f9ef6f92526bac62e5ff",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_bssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "Almighty BSSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-21T20:51:21.269580+00:00",
+        "last_updated": "2021-08-21T20:51:21.269580+00:00",
+        "context": {
+            "id": "e74d79b096646ceb5d3bc730ff7b1e6d",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_connection_type",
+        "state": "Cellular",
+        "attributes": {
+            "Cellular Technology": "4G",
+            "friendly_name": "Almighty Connection Type",
+            "icon": "mdi:signal"
+        },
+        "last_changed": "2021-08-21T20:51:21.269931+00:00",
+        "last_updated": "2021-08-21T20:51:21.269931+00:00",
+        "context": {
+            "id": "684bc0a03653968febc292a7c4ba0f49",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_sim_1",
+        "state": "3 Austria",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000001",
+            "Carrier Name": "3 Austria",
+            "Current Radio Technology": "Long-Term Evolution (LTE)",
+            "ISO Country Code": "at",
+            "Mobile Country Code": "232",
+            "Mobile Network Code": "05",
+            "friendly_name": "Almighty SIM 1",
+            "icon": "mdi:sim"
+        },
+        "last_changed": "2021-08-10T19:11:41.542580+00:00",
+        "last_updated": "2021-08-20T22:06:06.905974+00:00",
+        "context": {
+            "id": "23933ea7ac9946fa977e6f489bfa205e",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_sim_2",
+        "state": "unavailable",
+        "attributes": {
+            "friendly_name": "Almighty SIM 2",
+            "icon": "mdi:dots-square"
+        },
+        "last_changed": "2021-08-10T19:11:41.542895+00:00",
+        "last_updated": "2021-08-10T19:11:41.542895+00:00",
+        "context": {
+            "id": "b17c7128992b0cf1e173319026e76eca",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_geocoded_location",
+        "state": "Bendikstra\u00dfe 16\n4300 St. Valentin\n\u00d6sterreich",
+        "attributes": {
+            "Administrative Area": "Nieder\u00f6sterreich",
+            "Areas Of Interest": "N/A",
+            "Country": "\u00d6sterreich",
+            "Inland Water": "N/A",
+            "ISO Country Code": "AT",
+            "Locality": "St. Valentin",
+            "Location": [
+                48.1802133487137,
+                14.525092319289719
+            ],
+            "Name": "Bendikstra\u00dfe 16",
+            "Ocean": "N/A",
+            "Postal Code": "4300",
+            "Sub Administrative Area": "Amstetten",
+            "Sub Locality": "N/A",
+            "Sub Thoroughfare": "16",
+            "Thoroughfare": "Bendikstra\u00dfe",
+            "Time Zone": "Europe/Vienna",
+            "Zones": [],
+            "friendly_name": "Almighty Geocoded Location",
+            "icon": "mdi:map"
+        },
+        "last_changed": "2021-08-22T09:51:22.509969+00:00",
+        "last_updated": "2021-08-22T09:51:22.509969+00:00",
+        "context": {
+            "id": "d6600c7f3dc10273f9984c13be76ffd2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.almighty_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+            "friendly_name": "Almighty Last Update Trigger",
+            "icon": "mdi:cellphone-wireless"
+        },
+        "last_changed": "2021-08-22T08:36:12.829562+00:00",
+        "last_updated": "2021-08-22T08:36:12.829562+00:00",
+        "context": {
+            "id": "1d9a692d6011dd9f111f76ed775eef56",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_battery_level",
+        "state": "36",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "friendly_name": "Business Almighty Battery Level",
+            "icon": "mdi:battery-30",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-15T20:06:03.063055+00:00",
+        "last_updated": "2021-08-15T20:06:03.063055+00:00",
+        "context": {
+            "id": "cb7cfe7639b8fbec1f1118e9cc2644cd",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+            "Low Power Mode": false,
+            "friendly_name": "Business Almighty Battery State",
+            "icon": "mdi:battery-30",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-10T20:28:37.532863+00:00",
+        "last_updated": "2021-08-15T20:06:03.064085+00:00",
+        "context": {
+            "id": "242cf779538153265f62d224e68b255c",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_ssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "Business Almighty SSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-15T20:06:03.065564+00:00",
+        "last_updated": "2021-08-15T20:06:03.065564+00:00",
+        "context": {
+            "id": "36fc61cc10bb96f29af18ec8866a2bc5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_storage",
+        "state": "55.44",
+        "attributes": {
+            "Available": "30,49 GB",
+            "Available (Important)": "36,75 GB",
+            "Available (Opportunistic)": "35,46 GB",
+            "Total": "63,97 GB",
+            "unit_of_measurement": "% available",
+            "friendly_name": "Business Almighty Storage",
+            "icon": "mdi:database"
+        },
+        "last_changed": "2021-08-15T20:06:03.064981+00:00",
+        "last_updated": "2021-08-15T20:15:52.409367+00:00",
+        "context": {
+            "id": "e6b703d15892081cee65d6f41bd5285f",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_bssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "Business Almighty BSSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-15T20:06:03.066192+00:00",
+        "last_updated": "2021-08-15T20:06:03.066192+00:00",
+        "context": {
+            "id": "c03c0226db6b09b313e43c123ffe6c11",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+            "friendly_name": "Business Almighty Connection Type",
+            "icon": "mdi:wifi"
+        },
+        "last_changed": "2021-08-10T20:29:07.339534+00:00",
+        "last_updated": "2021-08-10T20:29:07.339534+00:00",
+        "context": {
+            "id": "66dcb8652b86086e1b003376be70c9db",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_sim_1",
+        "state": "A1",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000001",
+            "Carrier Name": "A1",
+            "Current Radio Technology": "Long-Term Evolution (LTE)",
+            "ISO Country Code": "at",
+            "Mobile Country Code": "232",
+            "Mobile Network Code": "01",
+            "friendly_name": "Business Almighty SIM 1",
+            "icon": "mdi:sim"
+        },
+        "last_changed": "2021-08-10T19:11:41.545567+00:00",
+        "last_updated": "2021-08-10T19:11:41.545567+00:00",
+        "context": {
+            "id": "5922093cf08efa0806981a171ea63033",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_geocoded_location",
+        "state": "P\u00f6tzleinsdorfer Stra\u00dfe 10/3\n1180 Wien\n\u00d6sterreich",
+        "attributes": {
+            "Administrative Area": "Wien",
+            "Areas Of Interest": "N/A",
+            "Country": "\u00d6sterreich",
+            "Inland Water": "N/A",
+            "ISO Country Code": "AT",
+            "Locality": "Wien",
+            "Location": [
+                48.23985896135136,
+                16.317186192080854
+            ],
+            "Name": "P\u00f6tzleinsdorfer Stra\u00dfe 10/3",
+            "Ocean": "N/A",
+            "Postal Code": "1180",
+            "Sub Administrative Area": "Wien",
+            "Sub Locality": "18. Bezirk W\u00e4hring",
+            "Sub Thoroughfare": "10/3",
+            "Thoroughfare": "P\u00f6tzleinsdorfer Stra\u00dfe",
+            "Time Zone": "Europe/Vienna",
+            "Zones": [
+                "Wohnung"
+            ],
+            "friendly_name": "Business Almighty Geocoded Location",
+            "icon": "mdi:map"
+        },
+        "last_changed": "2021-08-10T19:11:41.545867+00:00",
+        "last_updated": "2021-08-10T19:11:41.545867+00:00",
+        "context": {
+            "id": "410885ecffe4179eef1c4fb8aaaa2fa3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.business_almighty_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+            "friendly_name": "Business Almighty Last Update Trigger",
+            "icon": "mdi:cellphone-wireless"
+        },
+        "last_changed": "2021-08-15T20:15:52.410414+00:00",
+        "last_updated": "2021-08-15T20:15:52.410414+00:00",
+        "context": {
+            "id": "eb4db3e9e7da2117000a58e5e114c93e",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_battery_level",
+        "state": "48",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "friendly_name": "Barbara\u2019s iPhone Battery Level",
+            "icon": "mdi:battery-40",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-17T21:59:05.604556+00:00",
+        "last_updated": "2021-08-17T21:59:05.604556+00:00",
+        "context": {
+            "id": "e18eb0d9ded22749ed40c69daad14919",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+            "Low Power Mode": false,
+            "friendly_name": "Barbara\u2019s iPhone Battery State",
+            "icon": "mdi:battery-40",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-10T19:11:41.546732+00:00",
+        "last_updated": "2021-08-17T21:59:05.605026+00:00",
+        "context": {
+            "id": "6f14ff4fc3a3c257b1ee455b1fc259b5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_storage",
+        "state": "44.52",
+        "attributes": {
+            "Available": "17,22 GB",
+            "Available (Important)": "29,75 GB",
+            "Available (Opportunistic)": "28,46 GB",
+            "Total": "63,93 GB",
+            "unit_of_measurement": "% available",
+            "friendly_name": "Barbara\u2019s iPhone Storage",
+            "icon": "mdi:database"
+        },
+        "last_changed": "2021-08-17T21:59:05.605436+00:00",
+        "last_updated": "2021-08-17T22:04:59.858785+00:00",
+        "context": {
+            "id": "f8517b5351622195db03ef44f633a2d9",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_bssid",
+        "state": "8:36:c9:17:1d:e5",
+        "attributes": {
+            "friendly_name": "Barbara\u2019s iPhone BSSID",
+            "icon": "mdi:wifi-star"
+        },
+        "last_changed": "2021-08-17T22:04:59.859218+00:00",
+        "last_updated": "2021-08-17T22:04:59.859218+00:00",
+        "context": {
+            "id": "beaef3f6df3a431493a3a806ba5b2726",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_ssid",
+        "state": "apfelbaum",
+        "attributes": {
+            "friendly_name": "Barbara\u2019s iPhone SSID",
+            "icon": "mdi:wifi"
+        },
+        "last_changed": "2021-08-10T19:11:41.547594+00:00",
+        "last_updated": "2021-08-10T19:11:41.547594+00:00",
+        "context": {
+            "id": "9dbdaedffd572bdbd2c6a589561049ac",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+            "friendly_name": "Barbara\u2019s iPhone Connection Type",
+            "icon": "mdi:wifi"
+        },
+        "last_changed": "2021-08-10T19:11:41.547892+00:00",
+        "last_updated": "2021-08-10T19:11:41.547892+00:00",
+        "context": {
+            "id": "17edc9eb1ec0733f4967158baf471a09",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_sim_1",
+        "state": "3 Austria",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000001",
+            "Carrier Name": "3 Austria",
+            "Current Radio Technology": "Long-Term Evolution (LTE)",
+            "ISO Country Code": "at",
+            "Mobile Country Code": "232",
+            "Mobile Network Code": "05",
+            "friendly_name": "Barbara\u2019s iPhone SIM 1",
+            "icon": "mdi:sim"
+        },
+        "last_changed": "2021-08-10T19:11:41.548179+00:00",
+        "last_updated": "2021-08-10T19:11:41.548179+00:00",
+        "context": {
+            "id": "db67fba52a380e1ee33e1aeb31b6b2e3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_sim_2",
+        "state": "N/A",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000002",
+            "Carrier Name": "N/A",
+            "ISO Country Code": "N/A",
+            "Mobile Country Code": "N/A",
+            "Mobile Network Code": "N/A",
+            "friendly_name": "Barbara\u2019s iPhone SIM 2",
+            "icon": "mdi:sim"
+        },
+        "last_changed": "2021-08-10T19:11:41.548462+00:00",
+        "last_updated": "2021-08-10T19:11:41.548462+00:00",
+        "context": {
+            "id": "712f9835ccf848c41f617ebd155cdc2b",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_geocoded_location",
+        "state": "P\u00f6tzleinsdorfer Stra\u00dfe 10/3\n1180 Wien\n\u00d6sterreich",
+        "attributes": {
+            "Administrative Area": "Wien",
+            "Areas Of Interest": "N/A",
+            "Country": "\u00d6sterreich",
+            "Inland Water": "N/A",
+            "ISO Country Code": "AT",
+            "Locality": "Wien",
+            "Location": [
+                48.239837646484375,
+                16.317080845529745
+            ],
+            "Name": "P\u00f6tzleinsdorfer Stra\u00dfe 10/3",
+            "Ocean": "N/A",
+            "Postal Code": "1180",
+            "Sub Administrative Area": "Wien",
+            "Sub Locality": "18. Bezirk W\u00e4hring",
+            "Sub Thoroughfare": "10/3",
+            "Thoroughfare": "P\u00f6tzleinsdorfer Stra\u00dfe",
+            "Time Zone": "Europe/Vienna",
+            "Zones": [
+                "Wohnung"
+            ],
+            "friendly_name": "Barbara\u2019s iPhone Geocoded Location",
+            "icon": "mdi:map"
+        },
+        "last_changed": "2021-08-10T19:11:41.548762+00:00",
+        "last_updated": "2021-08-17T17:54:02.782253+00:00",
+        "context": {
+            "id": "e717123b096543f152c47a44bebbd1e8",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.barbaras_iphone_last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+            "friendly_name": "Barbara\u2019s iPhone Last Update Trigger",
+            "icon": "mdi:cellphone-wireless"
+        },
+        "last_changed": "2021-08-17T21:59:05.605855+00:00",
+        "last_updated": "2021-08-17T21:59:05.605855+00:00",
+        "context": {
+            "id": "a1cf0f6e7c5bb814b39fcc3edba3e49a",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_bssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "iPad (2) BSSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-10T19:11:41.549348+00:00",
+        "last_updated": "2021-08-10T19:11:41.549348+00:00",
+        "context": {
+            "id": "a8f922d73d1dc48c255b63eefbd90e54",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_battery_level",
+        "state": "31",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "friendly_name": "iPad (2) Battery Level",
+            "icon": "mdi:battery-30",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-10T19:11:41.549636+00:00",
+        "last_updated": "2021-08-10T19:11:41.549636+00:00",
+        "context": {
+            "id": "b916c807a2d272c4ce75692329ee5c45",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+            "Low Power Mode": false,
+            "friendly_name": "iPad (2) Battery State",
+            "icon": "mdi:battery-30",
+            "device_class": "battery"
+        },
+        "last_changed": "2021-08-10T19:11:41.549931+00:00",
+        "last_updated": "2021-08-10T19:11:41.549931+00:00",
+        "context": {
+            "id": "afb7ff6d70c0909d84a78134518e3b50",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_storage",
+        "state": "72.58",
+        "attributes": {
+            "Available": "181,14 GB",
+            "Available (Important)": "187,05 GB",
+            "Available (Opportunistic)": "185,77 GB",
+            "Total": "255,95 GB",
+            "unit_of_measurement": "% available",
+            "friendly_name": "iPad (2) Storage",
+            "icon": "mdi:database"
+        },
+        "last_changed": "2021-08-10T19:11:41.550216+00:00",
+        "last_updated": "2021-08-10T19:11:41.550216+00:00",
+        "context": {
+            "id": "b4bc8eb5f8d6479a9d0fa21ef1e32fad",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_ssid",
+        "state": "Not Connected",
+        "attributes": {
+            "friendly_name": "iPad (2) SSID",
+            "icon": "mdi:wifi-off"
+        },
+        "last_changed": "2021-08-10T19:11:41.550494+00:00",
+        "last_updated": "2021-08-10T19:11:41.550494+00:00",
+        "context": {
+            "id": "6e336859c1f29cf8807fe37d3c26e8ab",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+            "friendly_name": "iPad (2) Connection Type",
+            "icon": "mdi:wifi"
+        },
+        "last_changed": "2021-08-10T19:11:41.550771+00:00",
+        "last_updated": "2021-08-10T19:11:41.550771+00:00",
+        "context": {
+            "id": "ce51d254ee44a22357c15d2ebfb6abef",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_sim_1",
+        "state": "A1",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000001",
+            "Carrier Name": "A1",
+            "Current Radio Technology": "Long-Term Evolution (LTE)",
+            "ISO Country Code": "at",
+            "Mobile Country Code": "232",
+            "Mobile Network Code": "01",
+            "friendly_name": "iPad (2) SIM 1",
+            "icon": "mdi:sim"
+        },
+        "last_changed": "2021-08-10T19:11:41.551069+00:00",
+        "last_updated": "2021-08-10T19:11:41.551069+00:00",
+        "context": {
+            "id": "db3aeafaac2c92e7f85f4d2632e76f63",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_geocoded_location",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "iPad (2) Geocoded Location",
+            "icon": "mdi:map"
+        },
+        "last_changed": "2021-08-10T19:11:41.551353+00:00",
+        "last_updated": "2021-08-10T19:11:41.551353+00:00",
+        "context": {
+            "id": "0e8b89151458755c75297fa27a9cc6a6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.ipad_2_last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+            "friendly_name": "iPad (2) Last Update Trigger",
+            "icon": "mdi:cellphone-wireless"
+        },
+        "last_changed": "2021-08-10T19:11:41.551648+00:00",
+        "last_updated": "2021-08-10T19:11:41.551648+00:00",
+        "context": {
+            "id": "0b759bf027abf2aef9c6172c5e4566f7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.remote",
+        "state": "inactive",
+        "attributes": {
+            "friendly_name": "remote",
+            "icon": "mdi:remote"
+        },
+        "last_changed": "2021-08-18T20:37:21.047801+00:00",
+        "last_updated": "2021-08-18T20:37:21.047801+00:00",
+        "context": {
+            "id": "1963a03830207d59f9071346cfbc167d",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "weather.wohnung",
+        "state": "cloudy",
+        "attributes": {
+            "temperature": 27.6,
+            "humidity": 56,
+            "pressure": 1017.2,
+            "wind_bearing": 298.4,
+            "wind_speed": 6.1,
+            "attribution": "Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.",
+            "forecast": [
+                {
+                    "condition": "partlycloudy",
+                    "precipitation": 12.0,
+                    "temperature": 23.6,
+                    "templow": 17.8,
+                    "datetime": "2021-08-23T10:00:00+00:00",
+                    "wind_bearing": 284.2,
+                    "wind_speed": 21.6
+                },
+                {
+                    "condition": "rainy",
+                    "precipitation": 3.3,
+                    "temperature": 20.9,
+                    "templow": 16.3,
+                    "datetime": "2021-08-24T10:00:00+00:00",
+                    "wind_bearing": 318.0,
+                    "wind_speed": 22.3
+                },
+                {
+                    "condition": "sunny",
+                    "precipitation": 0.0,
+                    "temperature": 20.5,
+                    "templow": 14.4,
+                    "datetime": "2021-08-25T10:00:00+00:00",
+                    "wind_bearing": 341.8,
+                    "wind_speed": 14.0
+                },
+                {
+                    "condition": "rainy",
+                    "precipitation": 1.8,
+                    "temperature": 20.3,
+                    "templow": 15.6,
+                    "datetime": "2021-08-26T10:00:00+00:00",
+                    "wind_bearing": 271.0,
+                    "wind_speed": 20.2
+                },
+                {
+                    "condition": "partlycloudy",
+                    "precipitation": 0.2,
+                    "temperature": 20.1,
+                    "templow": 14.5,
+                    "datetime": "2021-08-27T10:00:00+00:00",
+                    "wind_bearing": 281.7,
+                    "wind_speed": 19.4
+                }
+            ],
+            "friendly_name": "Wohnung"
+        },
+        "last_changed": "2021-08-22T11:13:44.616552+00:00",
+        "last_updated": "2021-08-22T11:13:44.616552+00:00",
+        "context": {
+            "id": "acd70a6a8915a8015868e39b90eeccc7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.server_freedisk",
+        "state": "43.44",
+        "attributes": {
+            "unit_of_measurement": "GB",
+            "friendly_name": "server_freedisk",
+            "icon": "mdi:sd"
+        },
+        "last_changed": "2021-08-22T11:16:01.954876+00:00",
+        "last_updated": "2021-08-22T11:16:01.954876+00:00",
+        "context": {
+            "id": "0b1460f17ed48a36286e2417ec22a109",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.server_inet_connection",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "server_inet_connection",
+            "icon": "mdi:wan"
+        },
+        "last_changed": "2021-08-20T15:55:01.378413+00:00",
+        "last_updated": "2021-08-20T15:55:01.378413+00:00",
+        "context": {
+            "id": "9710a744e6c1878a27f868f13c78b197",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wssr_airpressure",
+        "state": "988.41",
+        "attributes": {
+            "unit_of_measurement": "mbar",
+            "friendly_name": "Luftdruck",
+            "device_class": "pressure"
+        },
+        "last_changed": "2021-08-22T11:40:33.052644+00:00",
+        "last_updated": "2021-08-22T11:40:33.052644+00:00",
+        "context": {
+            "id": "bf69a42762c98b180322308f27a9717a",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wssr_airpressuresealevel",
+        "state": "1017.38",
+        "attributes": {
+            "unit_of_measurement": "mbar",
+            "friendly_name": "Luftdruck (Meeresh\u00f6he)",
+            "device_class": "pressure"
+        },
+        "last_changed": "2021-08-22T11:40:33.094862+00:00",
+        "last_updated": "2021-08-22T11:40:33.094862+00:00",
+        "context": {
+            "id": "a2ea0f0769fe36e934a46999426734b3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wssr_humidity",
+        "state": "49",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "friendly_name": "Luftfeuchtigkeit",
+            "device_class": "humidity"
+        },
+        "last_changed": "2021-08-22T08:22:37.695781+00:00",
+        "last_updated": "2021-08-22T08:22:37.695781+00:00",
+        "context": {
+            "id": "154821cf921be04ea179a8aafe1891e2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wssr_temperature",
+        "state": "21.6",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Temperatur",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T09:31:23.809765+00:00",
+        "last_updated": "2021-08-22T09:31:23.809765+00:00",
+        "context": {
+            "id": "c1e5c330058bb92cb9fc9f5d906d6bd5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wssr_airquality",
+        "state": "2043",
+        "attributes": {
+            "unit_of_measurement": "ppm",
+            "friendly_name": "Luft Qualit\u00e4t",
+            "device_class": "carbon_dioxide"
+        },
+        "last_changed": "2021-08-22T11:36:07.483983+00:00",
+        "last_updated": "2021-08-22T11:36:07.483983+00:00",
+        "context": {
+            "id": "a7bddda7a1a0f7acb3b1c1bd4bbf9600",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_temp01",
+        "state": "19.1",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Temperatur 1",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:36:59.109507+00:00",
+        "last_updated": "2021-08-22T11:36:59.109507+00:00",
+        "context": {
+            "id": "04820e14ddba113573fbfce6032c99be",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_temp02",
+        "state": "18.6",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Temperatur 2",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:36:59.126657+00:00",
+        "last_updated": "2021-08-22T11:36:59.126657+00:00",
+        "context": {
+            "id": "4b4b75ffe2d4156aa889c62347217d3e",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_particle010um",
+        "state": "12",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b5g/m\u00b3",
+            "friendly_name": "Partikelkonzentration <1.0\u00b5m",
+            "icon": "mdi:chemical-weapon"
+        },
+        "last_changed": "2021-08-22T11:39:09.849441+00:00",
+        "last_updated": "2021-08-22T11:39:09.849441+00:00",
+        "context": {
+            "id": "e32b9c6d768d14305e888b5ffafb5fbd",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_humidity",
+        "state": "62",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "friendly_name": "Luftfeuchtigkeit",
+            "device_class": "humidity"
+        },
+        "last_changed": "2021-08-22T11:36:59.159645+00:00",
+        "last_updated": "2021-08-22T11:36:59.159645+00:00",
+        "context": {
+            "id": "f1c97f40727f0dc161593e72aa12ae78",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_airquality",
+        "state": "75",
+        "attributes": {
+            "unit_of_measurement": "ppm",
+            "friendly_name": "Luft Qualit\u00e4t"
+        },
+        "last_changed": "2021-08-22T11:40:14.794856+00:00",
+        "last_updated": "2021-08-22T11:40:14.794856+00:00",
+        "context": {
+            "id": "1dd6d98b07b6818d65176a6bb9eb9d1a",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_particle025um",
+        "state": "17",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b5g/m\u00b3",
+            "friendly_name": "Partikelkonzentration <2.5\u00b5m",
+            "icon": "mdi:chemical-weapon"
+        },
+        "last_changed": "2021-08-22T11:39:44.634304+00:00",
+        "last_updated": "2021-08-22T11:39:44.634304+00:00",
+        "context": {
+            "id": "59e23c7ce7eb18eee8820c76756e8920",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wsba_particle100um",
+        "state": "18",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b5g/m\u00b3",
+            "friendly_name": "Partikelkonzentration <10.0\u00b5m",
+            "icon": "mdi:chemical-weapon"
+        },
+        "last_changed": "2021-08-22T11:39:37.617796+00:00",
+        "last_updated": "2021-08-22T11:39:37.617796+00:00",
+        "context": {
+            "id": "af1e4fc8cca31e444171be354cc781fd",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wslr_temperature",
+        "state": "23.2",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Temperatur",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:40:08.602622+00:00",
+        "last_updated": "2021-08-22T11:40:08.602622+00:00",
+        "context": {
+            "id": "7fcd13d840c8312f5a84d0aead072d67",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wslr_airpressure",
+        "state": "994.33",
+        "attributes": {
+            "unit_of_measurement": "mbar",
+            "friendly_name": "Luftdruck",
+            "device_class": "pressure"
+        },
+        "last_changed": "2021-08-22T11:40:38.753404+00:00",
+        "last_updated": "2021-08-22T11:40:38.753404+00:00",
+        "context": {
+            "id": "8ca2c59401d3db30db515352d9776735",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wslr_humidity",
+        "state": "40",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "friendly_name": "Luftfeuchtigkeit",
+            "device_class": "humidity"
+        },
+        "last_changed": "2021-08-22T09:01:02.604738+00:00",
+        "last_updated": "2021-08-22T09:01:02.604738+00:00",
+        "context": {
+            "id": "ea81cab7a5786abd3e80e4949e9573b7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wslr_airpressuresealevel",
+        "state": "1023.53",
+        "attributes": {
+            "unit_of_measurement": "mbar",
+            "friendly_name": "Luftdruck (Meeresh\u00f6he)",
+            "device_class": "pressure"
+        },
+        "last_changed": "2021-08-22T11:40:38.795171+00:00",
+        "last_updated": "2021-08-22T11:40:38.795171+00:00",
+        "context": {
+            "id": "31d4098810a6ecd8e8c4512f26123e84",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.wslr_airquality",
+        "state": "591",
+        "attributes": {
+            "unit_of_measurement": "ppm",
+            "friendly_name": "Luft Qualit\u00e4t",
+            "device_class": "carbon_dioxide"
+        },
+        "last_changed": "2021-08-22T11:40:17.667443+00:00",
+        "last_updated": "2021-08-22T11:40:17.667443+00:00",
+        "context": {
+            "id": "aef3eab9ba3cf48a4b81c817a03c1d39",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.bath_temperature",
+        "state": "22.9",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Lufttemperatur",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:40:41.736496+00:00",
+        "last_updated": "2021-08-22T11:40:41.736496+00:00",
+        "context": {
+            "id": "4f518a0be61dc6025fcf7632f16fc6a1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.bath_humidity",
+        "state": "54",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "friendly_name": "Luftfeuchtigkeit",
+            "device_class": "humidity"
+        },
+        "last_changed": "2021-08-22T11:40:41.747924+00:00",
+        "last_updated": "2021-08-22T11:40:41.747924+00:00",
+        "context": {
+            "id": "31b2f1352065f4d8e3126d0553eb683c",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.ventilator_cutoff",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "Ventilator Cutoff",
+            "device_class": ""
+        },
+        "last_changed": "2021-08-21T10:25:12.270631+00:00",
+        "last_updated": "2021-08-21T10:25:12.270631+00:00",
+        "context": {
+            "id": "f845b57cce8a43ab58f7c8ded67e6c90",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "fan.ventilator_badezimmer",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Ventilator Badezimmer",
+            "supported_features": 0
+        },
+        "last_changed": "2021-08-21T10:25:17.380431+00:00",
+        "last_updated": "2021-08-21T10:25:17.380431+00:00",
+        "context": {
+            "id": "caccc732e240ba576e8be25d153d0aa4",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.lampe_sideboard",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Lampe Sideboard",
+            "icon": ""
+        },
+        "last_changed": "2021-08-21T21:01:10.584100+00:00",
+        "last_updated": "2021-08-21T21:01:10.584100+00:00",
+        "context": {
+            "id": "220e90e9e460c909be7e24cc08bb3a83",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stromversorgung_router_spannung",
+        "state": "240.6",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "V",
+            "friendly_name": "Stromversorgung - Router Spannung",
+            "device_class": "voltage"
+        },
+        "last_changed": "2021-08-22T11:40:34.100733+00:00",
+        "last_updated": "2021-08-22T11:40:34.100733+00:00",
+        "context": {
+            "id": "98d1f727643811af804e2a9cd99c6863",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stromversorgung_router_strom",
+        "state": "0.03",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "A",
+            "friendly_name": "Stromversorgung - Router Strom",
+            "device_class": "current"
+        },
+        "last_changed": "2021-08-21T08:27:28.634968+00:00",
+        "last_updated": "2021-08-21T08:27:28.634968+00:00",
+        "context": {
+            "id": "6ee55e8e49906b341224be6237fc3a6a",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stromversorgung_router_leistung",
+        "state": "0.0",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "W",
+            "friendly_name": "Stromversorgung - Router Leistung",
+            "device_class": "power"
+        },
+        "last_changed": "2021-08-21T08:27:30.072899+00:00",
+        "last_updated": "2021-08-21T08:27:30.072899+00:00",
+        "context": {
+            "id": "00e135b7bd3e1bf0667f608cae808bcb",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.stromversorgung_router",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "Stromversorgung - Router",
+            "icon": "mdi:power"
+        },
+        "last_changed": "2021-08-21T08:27:30.088734+00:00",
+        "last_updated": "2021-08-21T08:27:30.088734+00:00",
+        "context": {
+            "id": "b5e572d554966b8e7c47fa4cb5628501",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.lampe_fenster_strom",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Lampe Fenster Strom",
+            "icon": "hass:lightbulb"
+        },
+        "last_changed": "2021-08-19T20:43:19.635503+00:00",
+        "last_updated": "2021-08-19T20:43:19.635503+00:00",
+        "context": {
+            "id": "0df87feb7494787b417e9ab4fa553b2f",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.lampe_fenster_usb",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "Lampe Fenster USB",
+            "icon": ""
+        },
+        "last_changed": "2021-08-19T20:43:19.646673+00:00",
+        "last_updated": "2021-08-19T20:43:19.646673+00:00",
+        "context": {
+            "id": "afe0f8489da6a462785317d59f9d13a8",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.billy_beleuchtung",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Billy Beleuchtung",
+            "icon": "hass:lightbulb"
+        },
+        "last_changed": "2021-08-21T21:01:10.588575+00:00",
+        "last_updated": "2021-08-21T21:01:10.588575+00:00",
+        "context": {
+            "id": "220e90e9e460c909be7e24cc08bb3a83",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stecker_nachtkastl_spannung",
+        "state": "272.3",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "V",
+            "friendly_name": "Stecker Nachtkastl Spannung",
+            "device_class": "voltage"
+        },
+        "last_changed": "2021-08-22T11:39:04.744319+00:00",
+        "last_updated": "2021-08-22T11:39:04.744319+00:00",
+        "context": {
+            "id": "34bbec9c939c6abf6ef270af351c5ff2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stecker_nachtkastl_strom",
+        "state": "0.00",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "A",
+            "friendly_name": "Stecker Nachtkastl Strom",
+            "device_class": "current"
+        },
+        "last_changed": "2021-08-21T21:21:24.157972+00:00",
+        "last_updated": "2021-08-21T21:21:24.157972+00:00",
+        "context": {
+            "id": "0318b3d816efac59a88bf952f48ff727",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.stecker_nachtkastl_leistung",
+        "state": "0.0",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "W",
+            "friendly_name": "Stecker Nachtkastl Leistung",
+            "device_class": "power"
+        },
+        "last_changed": "2021-08-21T21:20:24.169993+00:00",
+        "last_updated": "2021-08-21T21:20:24.169993+00:00",
+        "context": {
+            "id": "dd7005e4e8781a5be5d77dd20a6f7d45",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.stecker_nachtkastl_strom",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Stecker Nachtkastl Strom",
+            "icon": ""
+        },
+        "last_changed": "2021-08-21T21:20:10.590374+00:00",
+        "last_updated": "2021-08-21T21:20:10.590374+00:00",
+        "context": {
+            "id": "220e90e9e460c909be7e24cc08bb3a83",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.stecker_nachtkastl_usb",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "Stecker Nachtkastl USB",
+            "icon": ""
+        },
+        "last_changed": "2021-08-19T20:28:48.703126+00:00",
+        "last_updated": "2021-08-19T20:28:48.703126+00:00",
+        "context": {
+            "id": "8233a8c1f48ca9f1d337ceb5f98d7889",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.balcony_temperature",
+        "state": "25.4",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Lufttemperatur",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:38:53.846160+00:00",
+        "last_updated": "2021-08-22T11:38:53.846160+00:00",
+        "context": {
+            "id": "d183b49e436bf3484f86404ab6fa8481",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.balcony_soiltemperature",
+        "state": "23.8",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "\u00b0C",
+            "friendly_name": "Bodentemperatur",
+            "device_class": "temperature"
+        },
+        "last_changed": "2021-08-22T11:35:10.020538+00:00",
+        "last_updated": "2021-08-22T11:35:10.020538+00:00",
+        "context": {
+            "id": "d4caee37cf5bf13beb9dc9272b3afa3e",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.balcony_humidity",
+        "state": "48",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "friendly_name": "Luftfeuchtigkeit",
+            "device_class": "humidity"
+        },
+        "last_changed": "2021-08-22T11:28:53.840231+00:00",
+        "last_updated": "2021-08-22T11:28:53.840231+00:00",
+        "context": {
+            "id": "db9bb6aed42f117f39509fb5a70e90e5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.balkon_schalterbox",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Balkon Schalterbox",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-21T08:27:27.508112+00:00",
+        "last_updated": "2021-08-21T08:27:27.508112+00:00",
+        "context": {
+            "id": "784eda0b205dc03ebcc6dcc50671314c",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.blaue_lampe",
+        "state": "unavailable",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Blaue Lampe",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-10T19:11:41.847866+00:00",
+        "last_updated": "2021-08-10T19:11:41.847866+00:00",
+        "context": {
+            "id": "1a80425edbf5e31847f988005341f43b",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.stehlampe",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Stehlampe",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-21T21:01:10.583135+00:00",
+        "last_updated": "2021-08-21T21:01:10.583135+00:00",
+        "context": {
+            "id": "220e90e9e460c909be7e24cc08bb3a83",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.lampe_buro_neben_bett",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Lampe B\u00fcro neben Bett",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-21T10:12:49.347647+00:00",
+        "last_updated": "2021-08-21T10:12:49.347647+00:00",
+        "context": {
+            "id": "b7e8beda21f9454e71755995e66023ef",
+            "parent_id": null,
+            "user_id": "f9ab695c7319462e82595d804333b16a"
+        }
+    },
+    {
+        "entity_id": "light.lampe_am_sideboard",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Lampe am Sideboard",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-21T21:20:10.586167+00:00",
+        "last_updated": "2021-08-21T21:20:10.586167+00:00",
+        "context": {
+            "id": "220e90e9e460c909be7e24cc08bb3a83",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.schreibtisch_hauptschalter",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "friendly_name": "Schreibtisch Hauptschalter",
+            "supported_features": 8
+        },
+        "last_changed": "2021-08-21T10:24:19.573409+00:00",
+        "last_updated": "2021-08-21T10:24:19.573409+00:00",
+        "context": {
+            "id": "272b27f164667e56bb6995e4c6d553a2",
+            "parent_id": null,
+            "user_id": "f9ab695c7319462e82595d804333b16a"
+        }
+    },
+    {
+        "entity_id": "light.ventilator_badezimmer",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "supported_features": 8,
+            "friendly_name": "Ventilator Badezimmer",
+            "icon": "mdi:fan"
+        },
+        "last_changed": "2021-08-10T19:11:41.903076+00:00",
+        "last_updated": "2021-08-10T19:11:41.903076+00:00",
+        "context": {
+            "id": "04e1ffe330728a6f62a0ed7ccf90e0f6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "persistent_notification.http_login",
+        "state": "notifying",
+        "attributes": {
+            "title": "Login attempt failed",
+            "friendly_name": "Login attempt failed",
+            "message": "Login attempt or request with invalid authentication from localhost (127.0.0.1). See the log for details."
+        },
+        "last_changed": "2021-08-22T11:35:09.660205+00:00",
+        "last_updated": "2021-08-22T11:35:09.660205+00:00",
+        "context": {
+            "id": "f351b4fa0d9e63fc6ca74bdf16e4a47c",
+            "parent_id": null,
+            "user_id": null
+        }
+    }
+]
