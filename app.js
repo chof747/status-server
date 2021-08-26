@@ -36,23 +36,33 @@ function startUpMqtt(app) {
 }
 
 //****************************************************************************************
-function startUpWS(app) {
+function loadSensorStatesAndConncetToHA() {
   const SensorStates = require('./models/sensorstates')
   const haws = require('./modules/ws')
   var states = new SensorStates();
   haws(states.update.bind(states));
-  app.set('states', states);
+  return states;
 }
 
 const dotenv = require('dotenv');
 dotenv.config();
 
 app = prepareServer();
-startUpMqtt(app);
-startUpWS(app);
+var states = loadSensorStatesAndConncetToHA();
 
 const statusRouter = require('./routes/api/status.js');
+var sensorsRouter = require('./routes/api/sensors');
+
+startUpMqtt(app);
+app.use('/api/sensors', function(req, res, next) {
+
+  req.states = states;
+  next();
+
+});
+
 app.use('/api/status', statusRouter);
+app.use('/api/sensors', sensorsRouter);
 
 app.use(errorHandler);
 
